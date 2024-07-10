@@ -1,3 +1,30 @@
+.card-article {
+  
+}
+
+.card-article .title {
+  color: blue;
+}
+
+.card-article .description {
+  color: green;
+}
+
+.tag-list {
+  display: flex;
+  gap: 8px;
+
+}
+
+.tag {
+  background-color: aquamarine;
+  padding: 4px 12px;
+  border-radius: 99px;
+  text-transform: capitalize;
+}
+
+
+
 .App {
   text-align: center;
 }

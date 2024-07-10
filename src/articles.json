@@ -1,0 +1,27 @@
+
+{"articles" : [{
+
+    "title" : "How to define color usage through semantic sets for design systems",
+    "author" : "Katie Cooper",
+    
+    "description" : "descrizione messa a mano da me >:)",
+    
+    "source": {
+    "link": "https://uxdesign.cc/how-to-define-color-usage-through-semantic-sets-for-design-systems-99445804233d",
+    "domain" : "uxdesign.cc",
+    "name": "ux design",
+    "icon": ""
+    },
+    
+    
+    "tags" : [
+    "design system",
+    "tokens",
+    "colors",
+    "figma"
+    ]
+    
+    }
+]
+}
+    
