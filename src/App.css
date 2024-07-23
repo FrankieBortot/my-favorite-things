@@ -1,13 +1,48 @@
+.hero {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-list {
+  gap: 24px;
+}
+
 .card-article {
-  
-}
 
-.card-article .title {
-  color: blue;
-}
+  /* display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; */
+  max-width: 300px;
+  padding: 24px;
 
-.card-article .description {
-  color: green;
+  ::hover {
+    background-color: black;
+  }
+
+  .image-container {
+
+    width: 200px;
+
+    .image {
+      width: 200px;
+      object-fit: fill;
+    }
+  }
+
+  .body {
+
+    .title {
+      color: blue;
+    }
+
+    .description {
+      color: green;
+    }
+
+  }
 }
 
 .tag-list {
@@ -59,6 +94,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
